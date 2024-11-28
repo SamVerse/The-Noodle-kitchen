@@ -1,5 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const findTableBtn = document.getElementById("find-table-btn");
+const mobileMenu = document.querySelector(".mobile-menu");
 
 hamburger.addEventListener("click", () => {
   mobileMenu.classList.toggle("active");
