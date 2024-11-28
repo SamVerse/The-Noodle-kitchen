@@ -168,7 +168,7 @@
     border: 2px solid #800000;
 }
 
-  /* Hero Section */
+  /* Hero */
   
   .hero {
     background: url('https://static.wixstatic.com/media/11062b_b35e39e734284486a1293ef3c6a3145b~mv2.jpg/v1/fill/w_1903,h_1008,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_b35e39e734284486a1293ef3c6a3145b~mv2.jpg') no-repeat center center/cover;
@@ -409,7 +409,7 @@ main {
   width: 100vw;
 }
 
-/* Left Section */
+
 #restaurant-page .left-section {
   flex: 1;
   background-color: white;
@@ -432,6 +432,9 @@ main {
   margin-bottom: 15px;
   color: black;
 }
+
+
+
 
 #restaurant-page .left-section .subtitle {
   font-size: 42px;
@@ -458,7 +461,6 @@ main {
   background-color: #b0070b;
 }
 
-/* Right Section */
 #restaurant-page .right-section {
   flex: 1;
   background-color: #df090e;
