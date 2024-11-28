@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: "Poppins", sans-serif;
+  background-color: #FFF2D9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding-top: 60px; 
+}
+
+
+/* Card Container */
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  flex-direction: column;
+  width: 80%;
+  max-width: 1000px; 
+  height: 10%; 
+}
+
+.card-image img {
+  width: 55%;
+  height: auto;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-content {
+  padding: 40px;
+  margin-top: 0px;
+}
+
+.card-content h1 {
+  font-size: 24px;
+  margin-bottom:10px;
+}
+
+.card-content .tagline {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.input-group i {
+  margin-right: 10px;
+  color: #DF070F; 
+}
+
+.extra-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.extra-options a {
+  color: #DF070F; 
+}
+
+.btn-primary {
+  background-color: #DF070F; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-social {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.google {
+  background-color: #db4437;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+/*  media queries */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card-image img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .input-group {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .input-group input {
+    margin-top: 10px;
+  }
+
+  .social-login {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
