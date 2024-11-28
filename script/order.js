@@ -40,8 +40,8 @@ menuItems.forEach(item => {
             saveCart();
             updateCartButton();
 
-            item.style.backgroundColor = "#d4edda"; // Light green
-            item.style.borderColor = "#28a745";     // Green border
+            item.style.backgroundColor = "#d4edda";
+            item.style.borderColor = "#28a745";
         }
     });
 });
